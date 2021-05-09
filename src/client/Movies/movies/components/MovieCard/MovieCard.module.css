@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+}
+.container_img {
+  display: flex;
+  padding-left: 50px;
+}
+.image {
+  border-radius: 5px;
+  height: 398px;
+}
+.container_card {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1b202bce;
+  margin-bottom: 5px;
+}
+.underline {
+  height: 4px;
+  width: 358px;
+  background-color: #2b61b3;
+}
+.text {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1b202bce;
+  margin-bottom: 10px;
+}
+.score {
+  margin-bottom: 10px;
+}
+.overview {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.default_img {
+  border-radius: 5px;
+  height: 398px;
+}

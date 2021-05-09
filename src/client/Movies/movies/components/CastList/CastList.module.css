@@ -1,0 +1,26 @@
+.container {
+  padding: 20px;
+}
+.cast {
+  margin: 0 auto;
+}
+.cast_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+.text {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1b202bce;
+  text-align: center;
+}
+.img {
+  width: 200px;
+}
+.default_img {
+  width: 200px;
+  padding-bottom: 85px;
+  border-radius: 50%;
+}

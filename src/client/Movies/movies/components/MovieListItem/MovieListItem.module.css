@@ -1,0 +1,22 @@
+.image {
+  border-radius: 5px;
+  height: 398px;
+  transition: transform 250ms linear;
+  cursor: pointer;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.image:hover {
+  cursor: pointer;
+  box-shadow: 0px -2px 32px 1px rgba(0, 0, 0, 0.69);
+  transform: scale(1.04);
+}
+.item {
+  margin: 0 auto;
+}
+.movie_name {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.33;
+  color: #000000;
+}

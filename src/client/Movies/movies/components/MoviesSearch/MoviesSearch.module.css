@@ -1,0 +1,52 @@
+.form {
+  display: flex;
+  max-width: 280px;
+  position: relative;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.search {
+  width: 100%;
+  background-color: transparent;
+  border: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 14px;
+  line-height: 1.14;
+  outline: none;
+  transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.search::placeholder {
+  color: #1b202bce;
+  transition: color 250ms linear;
+  opacity: 1;
+  transition: color 100ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.search:focus::placeholder {
+  opacity: 0;
+}
+
+.search:hover::placeholder {
+  color: #3b9706;
+}
+.btn_search {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background-size: 40%;
+
+  background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+}
+.btn_search:hover {
+  background-color: #3b9706;
+}
